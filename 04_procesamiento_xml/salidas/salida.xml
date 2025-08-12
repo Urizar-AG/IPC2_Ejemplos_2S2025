@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<camposAgricolas>
+	<campo nombre="Campo agrícola 01">
+		<estacionesBase>
+			<estacion id="e01" nombre="Estacion 01"/>
+			<estacion id="e02" nombre="Estacion 02"/>
+			<estacion id="e03" nombre="Estacion 03"/>
+			<estacion id="e04" nombre="Estacion 04"/>
+			<estacion id="e05" nombre="Estacion 05"/>
+		</estacionesBase>
+	</campo>
+</camposAgricolas>
