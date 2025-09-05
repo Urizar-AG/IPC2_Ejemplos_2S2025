@@ -1,0 +1,14 @@
+digraph TURNO_ATENDIDO {
+            graph [label="TURNO ATENDIDO"
+                labelloc="t"
+                fontname="Helvetica,Arial,sans-serif"
+                fontsize=16]
+            node [fontname="Helvetica,Arial,sans-serif"
+                shape=record
+                style=filled
+                fillcolor=lightgreen
+                width=8]
+            edge [dir="none"]
+            turno_atendido[label = <{<b>Turno #1</b> |Paciente: Oscar<br align="center"/>Edad: 30 anios<br align="center"/>|Especialidad: Dermatologia<br align="center"/>Tiempo de atencion: 25 min<br align="center"/>|Tiempo total: 25 min<br align="center"/>Tiempo en cola: 0 min<br align="center"/>}>]
+
+}

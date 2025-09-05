@@ -1,0 +1,8 @@
+- Documentación Oficial de Tkinter
+https://docs.python.org/es/3.13/library/tkinter.html
+
+- Posicionar elementos en Tkinter
+https://recursospython.com/guias-y-manuales/posicionar-elementos-en-tkinter/
+
+- Messagebox
+https://pythonassets.com/posts/message-box-in-tk-tkinter/

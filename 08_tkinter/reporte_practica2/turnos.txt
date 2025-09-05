@@ -1,0 +1,15 @@
+digraph TURNOS {
+            graph [label="COLA DE TURNOS MEDICOS"
+                labelloc="t"
+                fontname="Helvetica,Arial,sans-serif"
+                fontsize=16]
+            node [fontname="Helvetica,Arial,sans-serif"
+                shape=record
+                style=filled
+                fillcolor=lightblue
+                width=8]
+            edge [dir="none"]
+            posicion1[label = <{<b>Turno #1</b> |Paciente: Oscar<br align="center"/>Edad: 30 anios<br align="center"/>|Especialidad: Dermatologia<br align="center"/>Tiempo de atencion: 25 min<br align="center"/>|Tiempo total estimado: 25 min<br align="center"/>Tiempo en cola: 0 min<br align="center"/>}>]
+            posicion2[label = <{<b>Turno #2</b> |Paciente: Sofia<br align="center"/>Edad: 20 anios<br align="center"/>|Especialidad: Medicina General<br align="center"/>Tiempo de atencion: 10 min<br align="center"/>|Tiempo total estimado: 35 min<br align="center"/>Tiempo en cola: 25 min<br align="center"/>}>]
+            posicion1->posicion2
+}
