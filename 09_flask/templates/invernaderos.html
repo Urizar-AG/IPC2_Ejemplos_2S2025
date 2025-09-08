@@ -1,0 +1,28 @@
+{% extends 'template.html' %}
+{% block content %}
+    {% if not lista_invernaderos.esta_vacia() %}
+        <table>
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Nombre</th>
+                    <th>Filas</th>
+                    <th>Columnas</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for invernadero in lista_invernaderos %}
+                <tr>
+                    <td>{{ invernadero.get_id() }}</td>
+                    <td>{{ invernadero.get_nombre() }}</td>
+                    <td>{{ invernadero.get_filas() }}</td>
+                    <td>{{ invernadero.get_columnas() }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    {% else %}
+        <h2>No hay invernaderos...</h2>
+    {% endif %}
+
+{% endblock %}

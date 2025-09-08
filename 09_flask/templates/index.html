@@ -1,0 +1,15 @@
+{% extends 'template.html' %}
+{% block content %}
+
+<div class="index">
+    <h1> Bienvenido</h1>
+    <div>
+        <p>Cargar archivo XML</p>
+        <form action="{{url_for('cargar_archivo')}}" method="POST" enctype="multipart/form-data">
+            <input type="file" name="file" id="file" accept=".xml, .txt">
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</div>
+
+{% endblock %}
