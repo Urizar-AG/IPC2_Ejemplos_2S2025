@@ -1,0 +1,4 @@
+Las Expresiones Regulares (RegEx) son secuencias de caracteres que definen un patrón
+de búsqueda. Son herramientas esenciales en el procesamiento y análisis de texto,
+utilizadas ampliamente en la validación de entradas, búsqueda y reemplazo de cadenas, y
+extracción de datos en diferentes aplicaciones.
